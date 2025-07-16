@@ -16,7 +16,7 @@ public class MotorPostgre implements MotorSQL {
     private static final String URL = "jdbc:postgresql://localhost:5432/postgres";
     private static final String CONTROLADOR = "org.postgresql.Driver";
     private static final String USER = "postgres";
-    private static final String PASS = "1234";
+    private static final String PASS = "0000";
 
     public MotorPostgre() {
         properties = new Properties();

@@ -41,6 +41,11 @@ public class Controller extends HttpServlet {
         String[] arrayAction = action.split("\\.");
 
         switch (arrayAction[0]) {
+            case "USUARIO":
+                UsuarioAction usuarioAction = new UsuarioAction();
+                String respUser = usuarioAction.execute(request, response);
+                out.print(respUser);
+                break;
             case "VEHICULO":
                 String resp = new VehiculoAction().execute(request, response);
                 System.out.println(resp);

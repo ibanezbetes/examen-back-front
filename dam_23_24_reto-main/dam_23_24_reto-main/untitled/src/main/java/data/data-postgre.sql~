@@ -12,7 +12,4 @@ INSERT INTO vehiculo (matricula, modelo, kilometros) VALUES
 ('3456 JKL', 'Peugeot 308 1.6 HDi', 134000),
 ('7890 MNO', 'Toyota Corolla Hybrid',  32000);
 
-
 netstat -ano | findstr :8080
-taskkill /PID 1234 /F
-
